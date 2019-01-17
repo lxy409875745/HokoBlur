@@ -154,7 +154,7 @@ public class ScreenBlurRenderer implements IRenderer<DrawFunctor.GLInfo> {
             return;
         }
 
-        Preconditions.checkArgument(checkBlurSize(mWidth, mHeight), "Too large blur size, check width < 1800 and height < 3200");
+        //Preconditions.checkArgument(checkBlurSize(mWidth, mHeight), "Too large blur size, check width < 1800 and height < 3200");
 
         try {
             //In order to provide cache for the next blur operation, call prepare() even when radius = 0.
